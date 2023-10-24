@@ -38,7 +38,7 @@ userId: ID of the user creating the chat.
 - **Endpoint**: /api/chat/{id}
 - **Note**: Where {id} is the ID of the chat.
 - **Query Parameters**:
-- userId: ID of the user deleting the chat.
+ userId: ID of the user deleting the chat.
   
 ## 6. Send a Message to a Chat:
 - **Type**: POST
