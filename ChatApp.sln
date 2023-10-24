@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "Chat\Web.csproj", "{707B850D-9509-4205-AE20-09549F2D8FB3}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{FDD7F575-6B4C-4478-8276-4D4FAADB574A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{0429A22D-74CB-47A2-999A-3B675C3E3117}"
@@ -13,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRTestApp", "SignalRTe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{A7731198-D493-4572-9D8F-953825F907CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{524F6229-99EF-4B78-AD28-3A3E8237AF25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{524F6229-99EF-4B78-AD28-3A3E8237AF25}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "Web\Web.csproj", "{6B029E11-4A74-4376-813E-1D5BB25539BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{707B850D-9509-4205-AE20-09549F2D8FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{707B850D-9509-4205-AE20-09549F2D8FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{707B850D-9509-4205-AE20-09549F2D8FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{707B850D-9509-4205-AE20-09549F2D8FB3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FDD7F575-6B4C-4478-8276-4D4FAADB574A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FDD7F575-6B4C-4478-8276-4D4FAADB574A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDD7F575-6B4C-4478-8276-4D4FAADB574A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{524F6229-99EF-4B78-AD28-3A3E8237AF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{524F6229-99EF-4B78-AD28-3A3E8237AF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{524F6229-99EF-4B78-AD28-3A3E8237AF25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B029E11-4A74-4376-813E-1D5BB25539BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B029E11-4A74-4376-813E-1D5BB25539BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B029E11-4A74-4376-813E-1D5BB25539BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B029E11-4A74-4376-813E-1D5BB25539BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

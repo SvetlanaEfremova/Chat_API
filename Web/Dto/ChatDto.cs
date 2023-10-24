@@ -10,8 +10,11 @@ namespace Web.Dto
     public class ChatDto
     {
         public int Id { get; set; }
+
         public string Name { get; set; }
+
         public List<MessageDto> Messages { get; set; }
+
         public string CreatedBy { get; set; }
     }
 }
